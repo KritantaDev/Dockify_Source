@@ -155,6 +155,7 @@ HBPreferences *preferences;
 
 %end
 
+static void *observer = NULL;
 void prefsChanged() {
     if (dock) [dock setBackgroundAlpha:(transparent ? 0.0 : 1.0)];
 }
