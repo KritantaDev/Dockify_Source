@@ -17,6 +17,7 @@
 @end
 @interface SBDockView 
 -(void)setBackgroundAlpha:(CGFloat)alpha;
+@property (nonatomic, retain) UIView *backgroundView;
 @end
 
 //Set up variables for use with Cephei
@@ -75,6 +76,7 @@ HBPreferences *preferences;
     } else {
         NSLog(@"Dock not Transparent/hidden, no custom opacity\n");
     }
+    self.backgroundView.alpha = (transparent || hidden) ? 0.0 : customOpacity;
 }
 %end
 
