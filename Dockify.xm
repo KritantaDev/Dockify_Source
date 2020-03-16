@@ -1,7 +1,7 @@
 //Please note, in order to use MSHookIvar, this file needs to be .xm
 #import <Cephei/HBPreferences.h>
 #import <Foundation/Foundation.h>
-#define kSettingsChangedNotification "com.burritoz.dockify/Prefs"
+#define kSettingsChangedNotification (CFStringRef)@"com.burritoz.dockify/Prefs"
 
 @interface SBCoverSheetPrimarySlidingViewController : UIViewController
 - (void)viewDidDisappear:(BOOL)arg1;
