@@ -7,7 +7,7 @@ include $(THEOS)/makefiles/common.mk
 TWEAK_NAME = Dockify
 
 Dockify_FILES = Dockify.xm
-Dockify_CFLAGS = -fobjc-arc -DTHEOS_LEAN_AND_MEAN
+Dockify_CFLAGS = -fobjc-arc
 Dockify_EXTRA_FRAMEWORKS += Cephei
 
 include $(THEOS_MAKE_PATH)/tweak.mk
