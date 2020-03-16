@@ -182,7 +182,7 @@ void prefsChanged() {
     CFNotificationCenterAddObserver(
         CFNotificationCenterGetDarwinNotifyCenter(),
         &observer,
-        (CFNotificationCallback)preferencesChanged,
+        (CFNotificationCallback)prefsChanged,
         kSettingsChangedNotification,
         NULL,
         CFNotificationSuspensionBehaviorDeliverImmediately
