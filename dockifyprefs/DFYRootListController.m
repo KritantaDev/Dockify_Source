@@ -1,6 +1,6 @@
-#include "burRootListController.h"
+#include "DFYRootListController.h"
 
-@implementation burRootListController
+@implementation DFYRootListController
 
 - (NSArray *)specifiers {
 	if (!_specifiers) {

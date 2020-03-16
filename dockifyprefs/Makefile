@@ -2,7 +2,7 @@ include $(THEOS)/makefiles/common.mk
 
 BUNDLE_NAME = dockifyprefs
 
-dockifyprefs_FILES = burRootListController.m
+dockifyprefs_FILES = DFYRootListController.m
 dockifyprefs_INSTALL_PATH = /Library/PreferenceBundles
 dockifyprefs_FRAMEWORKS = UIKit
 dockifyprefs_PRIVATE_FRAMEWORKS = Preferences
